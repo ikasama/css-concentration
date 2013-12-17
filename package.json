@@ -17,6 +17,9 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies": {
-    "grunt-cli": "~0.1.11"
+    "grunt-cli": "~0.1.11",
+    "grunt": "~0.4.2",
+    "grunt-contrib-stylus": "~0.11.0",
+    "grunt-contrib-watch": "~0.5.3"
   }
 }
