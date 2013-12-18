@@ -1,6 +1,4 @@
 module.exports = function(grunt) {
-  grunt.loadNpmTasks('grunt-contrib-stylus');
-  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.initConfig({
 
@@ -29,5 +27,11 @@ module.exports = function(grunt) {
 
 
   });
+
+  grunt.loadNpmTasks('grunt-play');
+  grunt.loadNpmTasks('grunt-contrib-stylus');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
+  grunt.registerTask('fanfare', 'play');
 
 };
