@@ -19,7 +19,14 @@ module.exports = function(grunt) {
         files: ['styl/*.styl'],
         tasks: ['stylus']
       }
+    },
+
+    play: {
+      fanfare: {
+        file: 'node_modules/grunt-play/sounds/fanfare.mp3'
+      }      
     }
+
 
   });
 
